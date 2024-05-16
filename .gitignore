@@ -1,0 +1,10 @@
+debug.log
+/index.php
+.DS_Store
+node_modules/
+uploads/
+themes/*
+plugins/*
+
+!acf-likes/
+!interact/
