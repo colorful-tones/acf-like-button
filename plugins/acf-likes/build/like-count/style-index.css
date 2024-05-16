@@ -1,0 +1,30 @@
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./blocks/like-count/style.css ***!
+  \*********************************************************************************************************************************************************************************/
+.wpe-like-count {
+	align-items: center;
+	background-color: #000;
+	border-radius: 9999px;
+	display: flex;
+	line-height: 1;
+	padding: 2px;
+}
+
+.wpe-liked {
+	opacity: 1;
+	visibility: visible;
+}
+
+.wpe-like-count[hidden] {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.wpe-like-count .wpe-icon--heart {
+	height: auto;
+	margin-inline-end: 4px;
+	width: 18px;
+}
+
+
+/*# sourceMappingURL=style-index.css.map*/

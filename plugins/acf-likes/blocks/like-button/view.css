@@ -1,0 +1,40 @@
+.wpe-like-button {
+	line-height: 1;
+}
+
+.wpe-like-button__button {
+	align-items: center;
+	appearance: none;
+	background: none;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	margin-left: 0.5em;
+	padding: 0.05em;
+}
+
+.wp-block-wpe-like-button .wpe-icon--heart {
+	overflow: visible;
+	scale: 1;
+	width: 1.25rem;
+}
+
+.wpe-like-button__button:not(.wpe-liked) .wpe-icon--heart path {
+	fill: transparent;
+	stroke: white;
+	transform-origin: center;
+	transition: fill 0.1s, stroke 0.2s, scale 0.3s;
+}
+
+.wpe-like-button__button.wpe-liked .wpe-icon--heart path {
+	fill: var(--wp--preset--color--accent-3, #e82800);
+	stroke: transparent;
+}
+
+.wpe-like-button__button:not(.wpe-liked):hover .wpe-icon--heart {
+	scale: 1.2;
+}
+
+.wpe-like-button__button:not(.wpe-liked):hover .wpe-icon--heart path {
+	stroke: var(--wp--preset--color--accent-3, #e82800);
+}

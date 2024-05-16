@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpe/like-button",
+  "version": "0.1.0",
+  "title": "Like Button",
+  "category": "widgets",
+  "icon": "thumbs-up",
+  "description": "Click to like the song.",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "supports": {
+    "interactivity": true,
+    "mode": false
+  },
+  "textdomain": "like-button",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "viewScriptModule": "file:./view.js",
+  "viewStyle": "file:./view.css"
+}

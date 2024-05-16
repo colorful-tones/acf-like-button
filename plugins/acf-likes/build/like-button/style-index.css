@@ -1,0 +1,42 @@
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./blocks/like-button/style.css ***!
+  \**********************************************************************************************************************************************************************************/
+.wpe-like-button__button {
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.wpe-like-button__button::before {
+	background: url(../images/heart.fa922e04.png) no-repeat;
+	background-position: left;
+	background-size: 2900%;
+	content: "";
+	display: block;
+	height: 50px;
+	width: 50px;
+}
+
+.wpe-like-button__button.animate::before {
+	animation: heart-burst .8s steps(28) 1;
+}
+
+.wpe-like-button__button.wpe-liked:not(.animate)::before {
+	background-position: right;
+}
+
+.wpe-like-button__button.wpe-liked.animate::before {
+	animation-direction: reverse;
+	background-position: left;
+}
+
+@keyframes heart-burst {
+	from {background-position:left;}
+	to { background-position:right;}
+}
+
+
+/*# sourceMappingURL=style-index.css.map*/

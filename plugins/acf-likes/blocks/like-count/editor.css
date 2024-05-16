@@ -1,0 +1,14 @@
+.wp-block-wpe-like-count {
+	align-items: center;
+	background-color: #000;
+	border-radius: 9999px;
+	display: flex;
+	line-height: 1;
+	padding: 2px;
+}
+
+.wp-block-wpe-like-count .empty-heart_svg__wpe-icon--heart {
+	height: auto;
+	margin-inline-end: 4px;
+	width: 18px;
+}
