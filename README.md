@@ -20,3 +20,9 @@ A WordPress site with:
 - [ACF PRO](https://www.advancedcustomfields.com/pro/) plugin installed and activated.
 - Current repo's [ACF Like plugin](https://github.com/colorful-tones/acf-like-button/tree/main/plugins/acf-likes), which relies on the ACF PRO plugin being active.
 - Current repo's [Interact theme](https://github.com/colorful-tones/acf-like-button/tree/main/themes/interact) installed and activated.
+
+## Changelog
+
+### June 7, 2024
+
+- Add `aria-pressed` to notify screen readers of current Like button state.

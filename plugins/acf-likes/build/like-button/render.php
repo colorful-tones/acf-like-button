@@ -41,6 +41,7 @@ wp_interactivity_state(
 		class="wpe-like-button__button"
 		data-wp-on--click="actions.toggleLike"
 		data-wp-class--wpe-liked="state.isItemIncluded"
+		data-wp-bind--aria-pressed="state.isItemIncluded"
 	>
 		<span class="screen-reader-text"><?php esc_html_e( 'Like', 'like-button' ); ?></span>
 

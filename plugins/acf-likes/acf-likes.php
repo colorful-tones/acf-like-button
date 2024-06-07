@@ -3,7 +3,7 @@
  * Plugin Name: ACF Like plugin
  * Description: Register ACF post meta for likes.
  * Text Domain: wpe
- * Version: 1.0.1
+ * Version: 1.0.2
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
